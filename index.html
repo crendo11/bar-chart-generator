@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bar Display</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <form id="barForm">
     <label>Screen Width (cm): <input type="number" id="screenWidth" step="any" required></label>
@@ -16,6 +18,8 @@
       <select id="orientation">
         <option value="vertical">Vertical</option>
         <option value="horizontal">Horizontal</option>
+        <option value="star">Star</option>
+        <option value="koren">Koren</option>
       </select>
     </label>
     <button type="submit">Generate Bars</button>
@@ -25,4 +29,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
